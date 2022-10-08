@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.on_thi_tieu_hoc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".OnThiTieuHocApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.On_thi_tieu_hoc">
+        <activity
+            android:name=".View.LichSuLuyenTapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.ThongtincanhanActivity"
+            android:exported="false" />
+        <activity android:name=".View.DanhMucLopHocActivity" />
+        <activity
+            android:name=".View.HomeLop1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.HomeLop2_5Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.PhepChiaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.PhepNhanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Tim2_5XActitivty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.PhepTruActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.LuyenDeThiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Admin.HomeAdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Admin.CreateToanDoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.LuyenDeChiTietActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Admin.CreateDeThiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Admin.SignInAdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.ToanDoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.TimXActitivty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.PhepCongActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.SignInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

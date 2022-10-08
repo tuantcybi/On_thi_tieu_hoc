@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "619242155980",
+    "project_id": "onthitieuhoc",
+    "storage_bucket": "onthitieuhoc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619242155980:android:846a96fdb864d012843769",
+        "android_client_info": {
+          "package_name": "com.example.on_thi_tieu_hoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619242155980-7n5mcocp40nla42i206vl73nqcul9u4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy5fcqo5CMSZfYMOFY5oL0daSetzcXmaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619242155980-7n5mcocp40nla42i206vl73nqcul9u4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

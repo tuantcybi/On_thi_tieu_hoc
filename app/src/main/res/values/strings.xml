@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ôn thi tiểu học</string>
+    <string name="dangky">Nếu bạn chưa có tài khoản ? Đăng ký</string>
+    <string name="admin">Đăng nhập dành cho quản trị viên</string>
+</resources>
